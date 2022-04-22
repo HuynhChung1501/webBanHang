@@ -1,6 +1,0 @@
-node_modules
-.gitignore
-db.txt
-Dockerfile
-README.md
-dist
