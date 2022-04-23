@@ -6,11 +6,11 @@ const Product = ({ products }: any) => {
     
   return (
     <div>
-        {
-            products.map((value:any) => (
-                <ProductCard key={value._id} products={products }/>
-            ))
-        }
+      {
+          products.map((value:any) => (
+              <ProductCard key={value._id} products={products }/>
+          ))
+      }
     </div>
   )
 }
